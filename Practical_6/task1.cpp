@@ -3,15 +3,12 @@ using namespace std;
 int main()
 {
   int a=20;
-  int b=45;
-  float c=56.66;
-  float d=78.66;
-  string e="hi";
-  string f="there";
-  cout<<a+b;
-  
-  
-  
-  
-   
-  
+  float b=56.66;
+  string c="hi_there";
+  cout<<a+34<<endl;
+  cout<<b+34.7<<endl;
+  cout<<a+b<<endl;
+  cout<<a+c<<endl;
+  cout<<b+c;
+  return 0;
+}
