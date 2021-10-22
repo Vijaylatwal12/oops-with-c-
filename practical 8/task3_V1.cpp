@@ -7,7 +7,6 @@ int main()
   int **q;
   p=&a;
   q=&p;
-  **q=20;
   cout<<*p<<endl;
   cout<<**q;
   return 0;
