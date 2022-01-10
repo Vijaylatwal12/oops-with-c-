@@ -41,14 +41,14 @@ int main()
     cout << "Array after sorting :\n";
     printArray(arr, n);
 
-    cout << "Using Binary Search for finding 50 in an Array : \n ";
-    if (binary_search(arr, arr + n, 50))
+    cout << "Using Binary Search for finding 15 in an Array : \n ";
+    if (binary_search(arr, arr + n, 15))
     {
-        cout << "50 Exist in the Array \n";
+        cout << "15 Exist in the Array \n";
     }
     else
     {
-        cout << "50 Doesn't Exist in the Array\n";
+        cout << "15 Doesn't Exist in the Array\n";
     }
     return 0;
 }
